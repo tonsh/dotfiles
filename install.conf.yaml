@@ -1,0 +1,14 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    # Git
+    ~/.gitconfig:
+        force: true
+        path: git/.gitconfig
+    ~/.gitignore:
+        force: true
+        path: git/.gitignore
