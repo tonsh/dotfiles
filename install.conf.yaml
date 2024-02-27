@@ -12,3 +12,6 @@
     ~/.gitignore:
         force: true
         path: git/.gitignore
+
+- shell:
+    [bash -c "source ./zshrc.sh"] 
