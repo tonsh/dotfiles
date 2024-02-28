@@ -12,6 +12,10 @@
     ~/.gitignore:
         force: true
         path: git/.gitignore
+    # zsh
+    ~/.oh-my-zsh/custom/aliases.zsh:
+        force: true
+        path: zsh/aliases.zsh
 
-- shell:
-    [bash -c "source ./zshrc.sh"] 
+# - shell:
+#     [bash -c "source ./zshrc.sh"] 
