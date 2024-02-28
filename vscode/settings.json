@@ -1,0 +1,43 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.indentSize": "tabSize",
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.defaultProfile.osx": "",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/Thumbs.db": true
+    },
+    "emmet.preferences": {
+
+    },
+    "dotfiles.targetPath": "~/dotfiles",
+    "dotfiles.repository": "git@github.com:tonsh/dotfiles.git",
+    "dotfiles.installCommand": "install.sh",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    }
+}
