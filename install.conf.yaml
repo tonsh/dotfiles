@@ -16,17 +16,26 @@
     ~/.oh-my-zsh/custom/aliases.zsh:
         force: true
         path: zsh/aliases.zsh
-    # vscode for linux
-    ~/.config/Code/User/settings.json:
-        create: true
-        force: true
-        path: vscode/settings.json
     # vscode for mac
     ~/Library/Application Support/Code/User/settings.json:
+        if: '[ `uname`=Darwin ]'
         force: true
         path: vscode/settings.json
     # vscode for devcontainer
     ~/.vscode-server/data/Machine/settings.json:
+        if: '[ -n "$REMOTE_CONTAINERS" ]'
+        create: true
+        force: true
+        path: vscode/settings.json
+    # vscode for codespaces
+    ~/.vscode-remote/data/Machine/settings.json:
+        if: '[ -n "$CODESPACES" ]'
+        create: true
+        force: true
+        path: vscode/settings.json
+    # vscode for linux
+    ~/.config/Code/User/settings.json:
+        if: '[ uname=Linux] && [ -z $REMOTE_CONTAINERS] && [-z $CODESPACES ]'
         create: true
         force: true
         path: vscode/settings.json
