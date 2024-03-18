@@ -16,9 +16,13 @@
     ~/.oh-my-zsh/custom/aliases.zsh:
         force: true
         path: zsh/aliases.zsh
+    # vim
+    ~/.vimrc:
+        force: true
+        path: vim/.vimrc
     # vscode for mac
     ~/Library/Application Support/Code/User/settings.json:
-        if: '[ `uname`=Darwin ]'
+        if: '[ `uname` == "Darwin" ]'
         force: true
         path: vscode/settings.json
     # vscode for devcontainer
@@ -35,10 +39,10 @@
         path: vscode/settings.json
     # vscode for linux
     ~/.config/Code/User/settings.json:
-        if: '[ uname=Linux] && [ -z $REMOTE_CONTAINERS] && [-z $CODESPACES ]'
+        if: '[ `uname` == "Linux" ] && [ -z $REMOTE_CONTAINERS] && [-z $CODESPACES ]'
         create: true
         force: true
         path: vscode/settings.json
 
 # - shell:
-#     [bash -c "source ./zshrc.sh"] 
+#     [bash -c "source ./zshrc.sh"]
