@@ -39,5 +39,11 @@
             "path": "pwsh",
             "icon": "terminal-powershell"
         }
-    }
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.diagnosticSeverityOverrides": {
+        //"reportAttributeAccessIssue": "none",
+    },
+    "python.analysis.diagnosticMode": "workspace"
 }
