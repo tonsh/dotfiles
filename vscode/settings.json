@@ -41,9 +41,14 @@
         }
     },
     "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.typeCheckingMode": "strict",
     "python.analysis.diagnosticSeverityOverrides": {
+
         //"reportAttributeAccessIssue": "none",
     },
-    "python.analysis.diagnosticMode": "workspace"
+    "python.analysis.diagnosticMode": "workspace",
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "codesnap.showWindowTitle": true,
+    "codesnap.containerPadding": "2em",
 }
