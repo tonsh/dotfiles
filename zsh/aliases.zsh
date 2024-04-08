@@ -13,4 +13,5 @@ alias gc="git checkout"
 alias gst="git status"
 alias gstash="git stash"
 alias grebase="git rebase"
+alias gr="git rebase"
 # =========== End Dotfiles ===========
