@@ -31,6 +31,12 @@
         create: true
         force: true
         path: vscode/settings.json
+    # cursor for devcontainer
+    ~/.cursor-server/data/Machine/settings.json:
+        if: '[ -n "$REMOTE_CONTAINERS" ]'
+        create: true
+        force: true
+        path: vscode/settings.json
     # vscode for codespaces
     ~/.vscode-remote/data/Machine/settings.json:
         if: '[ -n "$CODESPACES" ]'
