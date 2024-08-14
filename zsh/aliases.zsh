@@ -18,6 +18,7 @@ alias gr="git rebase"
 
 # =========== Docker Aliases ===========
 alias dc="docker-compose"
+alias dcp="docker-compose ps"
 alias dcp="docker-compose pull"
 alias dcup="docker-compose up --force-recreate -d"
 # peanut docker aliases

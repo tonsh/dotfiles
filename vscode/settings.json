@@ -49,4 +49,6 @@
     "git.confirmSync": false,
     "codesnap.showWindowTitle": true,
     "codesnap.containerPadding": "2em",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.colorTheme": "Default Dark Modern",
 }
