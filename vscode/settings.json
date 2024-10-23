@@ -46,9 +46,14 @@
     },
     "python.analysis.diagnosticMode": "workspace",
     "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
     "git.confirmSync": false,
     "codesnap.showWindowTitle": true,
     "codesnap.containerPadding": "2em",
     "github.copilot.editor.enableAutoCompletions": true,
     "workbench.colorTheme": "Default Dark Modern",
+    "makefile.configureOnOpen": true,
+    "files.trimFinalNewlines": true,
 }
