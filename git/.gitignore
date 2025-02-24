@@ -3,6 +3,6 @@
 __pycache__
 *.bak
 .env
-.vscode
 .DS_Store
 *.swp
+
