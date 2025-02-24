@@ -1,6 +1,10 @@
 {
     "files.autoSave": "onFocusChange",
     "editor.indentSize": "tabSize",
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
     "remote.autoForwardPortsSource": "hybrid",
     "terminal.integrated.defaultProfile.osx": "",
     "terminal.integrated.defaultProfile.linux": "zsh",
