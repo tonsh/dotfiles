@@ -43,6 +43,11 @@
         create: true
         force: true
         path: vscode/settings.json
+    # claude
+    ~/.claude/agents: claude/agents/
+    ~/.claude/commands: claude/commands/
+    ~/.claude/CLAUDE.md: claude/CLAUDE.md
 
 # - shell:
 #     [bash -c "source ./zshrc.sh"]
+
