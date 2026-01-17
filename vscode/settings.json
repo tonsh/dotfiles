@@ -64,4 +64,10 @@
     "workbench.colorTheme": "Default Dark Modern",
     "makefile.configureOnOpen": true,
     "files.trimFinalNewlines": true,
+    "dev.containers.defaultExtensions": [
+        "ms-azuretools.vscode-docker",
+        "Anthropic.claude-code"
+    ],
+    "claudeCode.preferredLocation": "sidebar",
+    "claudeCode.allowDangerouslySkipPermissions": true
 }
